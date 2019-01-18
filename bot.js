@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 client.on('ready', () => {
-  client.user.setGame('-help | -invite','https://www.twitch.tv/Invite-Reward');
+  client.user.setGame('*help | *invite','https://www.twitch.tv/Invite-Reward');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
@@ -119,7 +119,7 @@ client.on('message', message => {
 __~~LioN BoT~~__ By: LioN_Dz
 
 ╔[❖════════════❖]╗
-             Prefix = ' - '
+             Prefix = ' * '
 ╚[❖════════════❖]╝
 
 ╔[❖════════════❖]╗
